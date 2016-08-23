@@ -13,10 +13,12 @@
 		3860107F1D4EFDDA008E088D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3860107D1D4EFDDA008E088D /* Main.storyboard */; };
 		386010811D4EFDDA008E088D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 386010801D4EFDDA008E088D /* Assets.xcassets */; };
 		386010841D4EFDDA008E088D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386010821D4EFDDA008E088D /* LaunchScreen.storyboard */; };
+		38CE2A741D6566B100EEFB7E /* ScanCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CE2A731D6566B100EEFB7E /* ScanCodeVC.m */; };
+		38FF32811D6BFA0200849770 /* SLAlertVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FF32801D6BFA0200849770 /* SLAlertVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		386010711D4EFDDA008E088D /* textDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		386010711D4EFDDA008E088D /* AlterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		386010751D4EFDDA008E088D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		386010771D4EFDDA008E088D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		386010781D4EFDDA008E088D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +28,10 @@
 		386010801D4EFDDA008E088D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		386010831D4EFDDA008E088D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		386010851D4EFDDA008E088D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38CE2A721D6566B100EEFB7E /* ScanCodeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanCodeVC.h; sourceTree = "<group>"; };
+		38CE2A731D6566B100EEFB7E /* ScanCodeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanCodeVC.m; sourceTree = "<group>"; };
+		38FF327F1D6BFA0200849770 /* SLAlertVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLAlertVC.h; sourceTree = "<group>"; };
+		38FF32801D6BFA0200849770 /* SLAlertVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLAlertVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,32 +48,38 @@
 		386010681D4EFDDA008E088D = {
 			isa = PBXGroup;
 			children = (
-				386010731D4EFDDA008E088D /* textDemo */,
+				386010731D4EFDDA008E088D /* AlterDemo */,
 				386010721D4EFDDA008E088D /* Products */,
+				59D70259C2EB3D374B160D71 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		386010721D4EFDDA008E088D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				386010711D4EFDDA008E088D /* textDemo.app */,
+				386010711D4EFDDA008E088D /* AlterDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		386010731D4EFDDA008E088D /* textDemo */ = {
+		386010731D4EFDDA008E088D /* AlterDemo */ = {
 			isa = PBXGroup;
 			children = (
+				38CE2A721D6566B100EEFB7E /* ScanCodeVC.h */,
+				38CE2A731D6566B100EEFB7E /* ScanCodeVC.m */,
 				386010771D4EFDDA008E088D /* AppDelegate.h */,
 				386010781D4EFDDA008E088D /* AppDelegate.m */,
 				3860107A1D4EFDDA008E088D /* ViewController.h */,
 				3860107B1D4EFDDA008E088D /* ViewController.m */,
+				38FF327F1D6BFA0200849770 /* SLAlertVC.h */,
+				38FF32801D6BFA0200849770 /* SLAlertVC.m */,
 				3860107D1D4EFDDA008E088D /* Main.storyboard */,
 				386010801D4EFDDA008E088D /* Assets.xcassets */,
 				386010821D4EFDDA008E088D /* LaunchScreen.storyboard */,
 				386010851D4EFDDA008E088D /* Info.plist */,
 				386010741D4EFDDA008E088D /* Supporting Files */,
 			);
+			name = AlterDemo;
 			path = textDemo;
 			sourceTree = "<group>";
 		};
@@ -79,12 +91,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		59D70259C2EB3D374B160D71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		386010701D4EFDDA008E088D /* textDemo */ = {
+		386010701D4EFDDA008E088D /* AlterDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 386010881D4EFDDA008E088D /* Build configuration list for PBXNativeTarget "textDemo" */;
+			buildConfigurationList = 386010881D4EFDDA008E088D /* Build configuration list for PBXNativeTarget "AlterDemo" */;
 			buildPhases = (
 				3860106D1D4EFDDA008E088D /* Sources */,
 				3860106E1D4EFDDA008E088D /* Frameworks */,
@@ -94,9 +113,9 @@
 			);
 			dependencies = (
 			);
-			name = textDemo;
+			name = AlterDemo;
 			productName = textDemo;
-			productReference = 386010711D4EFDDA008E088D /* textDemo.app */;
+			productReference = 386010711D4EFDDA008E088D /* AlterDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +132,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3860106C1D4EFDDA008E088D /* Build configuration list for PBXProject "textDemo" */;
+			buildConfigurationList = 3860106C1D4EFDDA008E088D /* Build configuration list for PBXProject "AlterDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -126,7 +145,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				386010701D4EFDDA008E088D /* textDemo */,
+				386010701D4EFDDA008E088D /* AlterDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -149,9 +168,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38CE2A741D6566B100EEFB7E /* ScanCodeVC.m in Sources */,
 				3860107C1D4EFDDA008E088D /* ViewController.m in Sources */,
 				386010791D4EFDDA008E088D /* AppDelegate.m in Sources */,
 				386010761D4EFDDA008E088D /* main.m in Sources */,
+				38FF32811D6BFA0200849770 /* SLAlertVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +284,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = textDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.terry.textDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AlterDemo;
 			};
 			name = Debug;
 		};
@@ -274,17 +296,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = textDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.terry.textDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AlterDemo;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3860106C1D4EFDDA008E088D /* Build configuration list for PBXProject "textDemo" */ = {
+		3860106C1D4EFDDA008E088D /* Build configuration list for PBXProject "AlterDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				386010861D4EFDDA008E088D /* Debug */,
@@ -293,13 +316,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		386010881D4EFDDA008E088D /* Build configuration list for PBXNativeTarget "textDemo" */ = {
+		386010881D4EFDDA008E088D /* Build configuration list for PBXNativeTarget "AlterDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				386010891D4EFDDA008E088D /* Debug */,
 				3860108A1D4EFDDA008E088D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

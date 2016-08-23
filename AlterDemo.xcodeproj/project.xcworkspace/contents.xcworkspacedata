@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:textDemo.xcodeproj">
+      location = "self:/Users/SFB-shengli/Desktop/textDemo/AlterDemo.xcodeproj">
    </FileRef>
 </Workspace>
